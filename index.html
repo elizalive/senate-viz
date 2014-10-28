@@ -16,8 +16,12 @@ a img { /* this selector removes the default blue border displayed in some brows
 	border: none;
 }
 /* ~~ This fixed width container surrounds all other blocks ~~ */
-.scoreboard {
+.graphic{
 	width: 492px;
+	margin: 0 auto
+}
+.scoreboard {
+	width: 100%;
 	height: 100px;
 	margin: 0 auto;
 }
@@ -85,6 +89,7 @@ table{
 </style>
 </head>
 <body>
+  <div class="graphic">
   <header>
   	<p> Who will control the Senate in 2015?</p>
   </header>
@@ -102,8 +107,9 @@ table{
       <div class="c4">
         <p>30</p>
         <p> SEATS </p>
-</div>
+	  </div>
         <div class="c5">
+            <!--ELEPHANT-->
             <svg version="1.1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"x="0px" y="0px" width="45.6px" height="37.2px" viewBox="0 0 45.6 37.2" enable-background="new 0 0 45.6 37.2"xml:space="preserve" class="elephant">           
             <path fill="#B37055" d="M38.9,13.2c0,0.2,0,8.5,0,8.5l0,9.8c0,2.8,2.2,1.9,2.3,0.9l0-3.4l4.3,0c0,2.1,0.7,5-1.6,7c-1.8,1.6-7.3,1.8-8.9-1.7c-1-2-0.8-6.9-1.1-7.8c-0.8-2.3-2.1-0.4-2.1-0.4l0,10.1l-7.7,0l0-9.7H7.8l0,9.7H0.2L0,12.1C1.1,5,5.7,1.2,11.4,0.1C11.5,0,12.5,0,12.5,0s9.8,0.2,13.9,0.1C30,0,33.9,2.6,35.3,4.2C38.2,7.5,38.7,9.1,38.9,13.2z"/>
             </svg>
@@ -113,47 +119,48 @@ table{
 	<!--START OF BAR-->
     <div class="bar">
         <?xml version="1.0" encoding="utf-8"?>
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <!--START STATIC_DEM BARS-->
+        <svg version="1.1" id="bar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     
          viewBox="0 0 516 90" enable-background="new 0 0 516 90" xml:space="preserve">
     
-    <g>
+    <g id="static_dem1">
     
         <rect x="10.6" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="static_dem3">
     
         <rect x="20.4" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="static_dem5">
     
         <rect x="30.3" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="static_dem7">
     
         <rect x="40.1" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="static_dem9">
     
         <rect x="50" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="static_dem11">
     
         <rect x="59.8" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="static_dem13">
     
         <rect x="69.7" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
@@ -218,38 +225,40 @@ table{
         <rect x="168.2" y="35.7" fill="#688BAB" width="3.8" height="36.9"/>
     
     </g>
+	<!--END STATIC_DEM BARS-->
+	<!--START UP_FOR_GRABS BARS-->
     
-    <g>
+    <g id="up_for_grabs1">
     
         <rect x="227.3" y="35.7" fill="#EACA56" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="up_for_grabs3">
     
         <rect x="237.1" y="35.7" fill="#EACA56" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="up_for_grabs5">
     
         <rect x="247" y="35.7" fill="#EACA56" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="up_for_grabs7">
     
         <rect x="256.8" y="35.7" fill="#EACA56" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="up_for_grabs9">
     
         <rect x="266.7" y="35.7" fill="#EACA56" width="3.8" height="36.9"/>
     
     </g>
     
-    <g>
+    <g id="up_for_grabs11">
     
         <rect x="276.5" y="35.7" fill="#EACA56" width="3.8" height="36.9"/>
     
